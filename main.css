@@ -9,10 +9,24 @@
     width: 33%;
 }
 
-.octocat > a > img {
-    border: 1px solid #CACACA;    
+.octocat > a {
+    border: 1px solid #CACACA; 
+    display: inline-block;   
+    position: relative;
+}
+
+.octocat > a:after {
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #cacaca transparent transparent transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 0;
 }
 
 img {
     width: 100%;
 }
+
