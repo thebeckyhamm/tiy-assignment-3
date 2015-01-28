@@ -30,3 +30,53 @@ img {
     width: 100%;
 }
 
+.image-footer {
+    border-bottom: 1px solid #CACACA;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.image-footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image-number {
+    color: #CACACA;
+    float: left;
+    padding-top: 10px;
+}
+
+.image-number:before {
+    content: "#";
+}
+
+.image-caption {
+    color: #7A7C7D;
+    float: right;
+}
+
+.image-caption * {
+    vertical-align: middle;
+}
+
+.image-caption a {
+    color: black;
+    text-decoration: none;
+}
+
+.authors {
+    display: inline-block;
+    padding: 0;
+}
+
+.authors li {
+    list-style: none;
+}
+.authors img {
+    width: 30px;
+}
+
