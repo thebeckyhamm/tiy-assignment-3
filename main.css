@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.octocat {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    width: 33%;
+}
+
+.octocat > a > img {
+    border: 1px solid #CACACA;    
+}
+
+img {
+    width: 100%;
+}
